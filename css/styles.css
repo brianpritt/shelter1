@@ -1,0 +1,30 @@
+.column{
+  float: left;
+  width: 500px;
+  margin-left:10%;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+.column img{
+  height: 400px;
+  width: 400px;
+  float: left;
+  margin-bottom:50px;
+
+}
+
+.content p{
+  width: 400px;
+  float: left;
+
+}
+body{
+  background-color: lightblue;
+}
