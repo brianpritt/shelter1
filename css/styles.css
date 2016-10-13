@@ -1,3 +1,4 @@
+
 .column{
   float: left;
   width: 300px;
@@ -25,17 +26,36 @@
 h1{
   text-align: center;
   font-size: 45px;
+  background-color: #efb24f;
 }
 h2{
   text-align: center;
 }
 p{
   text-align: center;
-  margin: 5px 5%;
+  margin: 5px %;
 }
 
 body{
-  background-color: lightblue;
+  background-color: #b77305;
   font-family: sans-serif;
   margin: 3%;
+}
+.p-number{
+  color: red;
+}
+footer{
+  clear: both;
+  margin-top: 50px;
+  background-color: #efb24f;
+}
+@media screen and (max-width: 1300px){
+  .column {
+    margin-left:40px;
+  }
+  }
+@media screen and (max-width: 880px){
+.column {
+  margin-left: 20px;
+}
 }
